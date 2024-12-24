@@ -1,0 +1,177 @@
+.main {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.containerPages {
+  padding: 0 24px 100px;
+}
+
+.homeButton {
+  background-color: #ff0800 !important;
+  border-radius: 2px !important;
+  font-weight: 700 !important;
+  font-size: 15px !important;
+  color: #fff !important;
+}
+
+.accordionPages {
+  display: none;
+}
+
+.horizonTabsMobile {
+  display: none;
+}
+
+.catalogsMobile {
+  display: none;
+}
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 21px;
+}
+
+.catalogButton {
+  text-align: center;
+  margin: 50px 0 0;
+}
+
+.catalogBreadcrumbersCont {
+  width: 1300px;
+}
+
+.elipse {
+  width: 10px;
+  height: 10px;
+}
+
+.contactsContainer {
+  width: 1252px;
+}
+
+.loadingCont {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tabsAboutCont button div {
+  white-space: nowrap !important;
+}
+
+.tabsAboutCont button {
+  max-width: max-content !important;
+}
+
+.categoriLabelAndImg {
+  padding: 0;
+}
+
+@media (max-width: 1324px) {
+  .catalogBreadcrumbersCont {
+    width: 98vw;
+  }
+
+  .contactsContainer {
+    width: 94vw;
+  }
+}
+
+@media (max-width: 1250px) {
+  .cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .contactsContainer {
+    width: 92vw;
+  }
+}
+
+@media (max-width: 1095px) {
+  .catalogBreadcrumbersCont {
+    width: 90vw;
+  }
+}
+
+@media (max-width: 1030px) {
+  .tabsContPages {
+    display: none;
+  }
+
+  .accordionPages {
+    display: block;
+  }
+}
+
+@media (max-width: 1000px) {
+  .horizontTabs {
+    display: none;
+  }
+
+  .horizonTabsMobile {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 171%;
+    color: #535353;
+  }
+
+  .horizonTabsMobileItem {
+    padding-bottom: 13px;
+  }
+
+  .catalogsDesktop {
+    display: none;
+  }
+
+  .catalogsMobile {
+    display: block;
+  }
+
+  .accordionlink span[data-open="true"] {
+    font-size: 16px !important;
+    line-height: 150% !important;
+    color: #ff0800 !important;
+  }
+  .accordionlink span {
+    font-weight: 700 !important;
+    font-size: 14px !important;
+    line-height: 157% !important;
+    color: #535353 !important;
+  }
+
+  .accordionlink {
+    padding-bottom: 10px;
+  }
+
+  .contactsContainer {
+    width: 89vw;
+  }
+}
+
+@media (max-width: 730px) {
+  .cardContainer {
+    gap: 13px;
+  }
+}
+
+@media (max-width: 641px) {
+  .elipse {
+    display: none;
+  }
+
+  .containerPages {
+    padding: 0 10px 60px;
+  }
+
+  .contactsContainer {
+    width: 87vw;
+  }
+}

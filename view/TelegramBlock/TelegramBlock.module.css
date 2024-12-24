@@ -1,0 +1,106 @@
+.container {
+  position: relative;
+  width: 100%;
+  height: 460px;
+
+  padding: 0 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.textContainer {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 142%;
+  color: #535353;
+
+  position: relative;
+}
+
+.textBot {
+  font-weight: 500;
+}
+
+.telegramIcon {
+  position: absolute;
+  left: -149px;
+  top: -77px;
+  z-index: -1;
+}
+
+.circleMs,
+.circleSm,
+.circleBig,
+.circleSmall {
+  background-color: #cdcdcc;
+  box-shadow: 4px -4px 4px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+  position: absolute;
+}
+
+.circleBig {
+  left: 24px;
+  bottom: -140px;
+  width: 275px;
+  height: 302px;
+  z-index: -1;
+  box-shadow: -4px 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.circleSmall {
+  left: 204px;
+  bottom: 107px;
+  width: 76px;
+  height: 79px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.circleMs {
+  width: 184px;
+  height: 177px;
+  top: 0;
+  right: 24px;
+}
+
+.circleSm {
+  width: 76px;
+  height: 79px;
+  top: 125px;
+  right: 24px;
+}
+
+@media (max-width: 885px) {
+  .circleMs,
+  .circleSm,
+  .circleBig,
+  .circleSmall {
+    display: none;
+  }
+
+  .container {
+    height: 268px;
+    padding: 10px;
+  }
+
+  .telegramIcon {
+    transform: scale(-1, 1);
+    left: auto;
+    right: -46px;
+    top: -45px;
+    width: 141px;
+    height: 136px;
+  } 
+}
+
+@media (max-width: 640px) {
+  .telegramIcon {
+    right: 0px;
+  } 
+
+  .container button, .container a{
+    width: 100% !important;
+  }
+}

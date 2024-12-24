@@ -1,0 +1,16 @@
+.buttonLink {
+    background-color: #ff0800 !important;
+    border-radius: 2px !important;
+    font-weight: 700 !important;
+    font-size: 15px !important;
+    color: #fff !important;
+    padding-left: 36px !important;
+    padding-right: 36px !important;
+  }
+
+@media (max-width: 641px) {
+    .buttonLink {
+      padding-left: 26px !important;
+      padding-right: 26px !important;
+    }
+  }

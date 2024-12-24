@@ -1,0 +1,219 @@
+.buttonContainer {
+  display: flex;
+}
+
+.button {
+  border: 1px solid #e5e5e5;
+  border-radius: 2px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  color: #535353;
+  padding: 10px 32px;
+  margin-right: 10px;
+}
+
+.buttonActive {
+  box-shadow: 0 0 15px 0 rgb(155 155 155 / 0.5);
+  background: #485858;
+  font-weight: 600;
+  color: #fff;
+}
+
+.titleCardsType {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 222%;
+  color: #535353;
+  padding: 36px 0 10px;
+}
+
+.CardsContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 21px;
+}
+
+.filterAndDevicesContainer {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.filter {
+  border: 1px solid #eaeaea;
+  background: #fff;
+  padding: 10px;
+  margin-right: 45px;
+  margin-top: 50px;
+  width: 302px;
+
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 286%;
+  color: #535353;
+}
+
+.notDevicesToFilter {
+  margin-top: 150px;
+  text-align: center;
+}
+
+.filterButtonContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;margin-top: 25px;
+}
+
+.resetButton,
+.filterButton {
+  border-radius: 2px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 286%;
+}
+
+.resetButton {
+  border: 1px solid #e5e5e5;
+  color: #535353;
+}
+
+.filterButton {
+  background: #ff0800;
+  color: #fff;
+}
+
+.filterTitleCont {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filterTitle {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 250%;
+  color: #535353;
+}
+
+.microPoeContainer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.permissionItem span {
+  font-weight: 500 !important;
+  color: #485858 !important;
+}
+
+.permissionItem,
+.microPoeItem {
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+}
+
+.permissionItem {
+  padding-left: 25px;
+}
+
+.microPoeItem {
+  font-size: 14px !important;
+  line-height: 286% !important;
+  color: #535353 !important;
+}
+
+.permissionItem svg, .microPoeItem svg {
+  color: #ff0800 !important;
+}
+.permissionItem span::after, .microPoeItem span::after {
+  background-color: white !important;
+  border: 1px solid black !important;
+}
+
+.sliderPrice div div div {
+  background-color: red !important;
+}
+
+.sliderPrice div div div::after {
+  background-color: red !important;
+}
+
+.accordionSection {
+  display: none;
+}
+
+.accordionItem h2 > button {
+  padding: 0;
+}
+
+.accordionItem section {
+  overflow: hidden;
+}
+
+.priceSlider {
+  padding-top: 20px;
+}
+
+@media (max-width: 1250px) {
+  .CardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1050px) {
+  .filterAndDevicesContainer {
+    grid-template-columns: 1fr;
+  }
+  .filter {
+    margin-right: 0;
+    margin-top: 32px;
+    width: 302px;
+  }
+}
+
+@media (max-width: 892px) {
+  .buttonContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .button {
+    margin-right: 0;
+    width: 100%;
+    min-height: 100%;
+  }
+}
+
+@media (max-width: 730px) {
+  .CardsContainer {
+    gap: 13px;
+  }
+}
+
+@media (max-width: 434px) {
+  .buttonContainer {
+    grid-template-columns: 1fr;
+  }
+
+  .deskTop {
+    display: none;
+  }
+
+  .accordionSection {
+    display: block;
+  }
+
+  .DesktopFilterSection {
+    display: none;
+  }
+
+  .filterTitleCont {
+    padding: 0;
+  }
+
+  .filter {
+    width: 100%;  
+  }
+}

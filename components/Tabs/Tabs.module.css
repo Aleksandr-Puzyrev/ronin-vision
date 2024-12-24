@@ -1,0 +1,24 @@
+.tabsCont {
+  padding-bottom: 56px;
+  display: inline-block !important;
+}
+
+.tabsCont button{
+    padding: 28px 35px !important;
+    max-width: 280px !important;
+  }
+
+.tabsItem div {
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    /* line-height: 250% !important; */
+    white-space: normal !important;
+  }
+
+.tabsItem[data-selected="true"] span {
+  background-color: #485858 !important;
+}
+
+.tabsItem[data-selected="true"] div {
+    color: white !important;
+  }

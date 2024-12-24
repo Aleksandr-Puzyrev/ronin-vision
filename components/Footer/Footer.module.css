@@ -1,0 +1,108 @@
+.footer {
+    background-color: #485858;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-top: 2px;
+}
+
+.telefon .icon{
+    width: 18px;
+    height: 18px;
+    margin-left: 2px;
+}
+
+.footerContainer {
+    padding: 50px 24px;
+    margin: 0 auto;
+    max-width: 1300px;
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 30px;
+    font-size: 14px;
+}
+
+.productsItem {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.footerItem, .contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.email {
+    display: flex;
+    gap: 8px;
+    color: white;
+}
+
+.telefon {
+    display: flex;
+    gap: 8px;
+}
+
+.pin {
+    display: flex;
+    gap: 8px;
+}
+
+.icons {
+    margin-left: -3px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.hr {
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    .footerContainer {
+        padding: 22px 24px;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 641px) {
+    .footerContainer {
+        grid-template-columns: 1fr 1fr;
+
+        gap: 30px;
+
+    }
+
+    .logo {
+        grid-column: span 2;
+    }
+
+    .contacts {
+        grid-column: span 2;
+        gap: 7px;
+        margin: 0 auto;
+    }
+
+    .logoText {
+        display: none;
+    }
+
+    .hr {
+        display: block;
+        text-align: center;
+        grid-column: span 2;
+    }
+
+    .hr hr {
+        padding: 14px 0;
+    }
+
+}

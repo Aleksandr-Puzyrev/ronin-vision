@@ -1,0 +1,10 @@
+.yMapContainer {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 641px) {
+  .yMapContainer div {
+    width: 100% !important;
+  }
+}

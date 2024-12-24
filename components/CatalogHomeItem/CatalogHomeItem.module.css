@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+.description {
+  color: #8c8c8c;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 157%;
+}
+
+.linkButton {
+  padding: 13px 69px !important;
+  background-color: #485858 !important;
+  border-radius: 2px !important;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  color: #fff !important;
+}
+
+
+@media (max-width: 641px) {
+  .linkButton {
+    padding: 8px 20px !important;
+  }
+  
+}

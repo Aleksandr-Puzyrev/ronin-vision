@@ -1,0 +1,47 @@
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.container * {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: auto;
+  background-color: white;
+  align-items: start;
+  gap: 20px;
+}
+
+.nav {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 157%;
+  color: #535353;
+}
+
+.linkCatalog {
+  display: none;
+}
+
+.linkContainer {
+  white-space: normal !important;
+  max-width: 270px;
+
+}
+
+.linkContainer * {
+  text-align: start;
+}
+
+.nav[data-selected="true"] .linkCatalog {
+  display: flex !important;
+}
+
+.nav[data-selected="true"] .title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 133%;
+  color: #ff0800;
+
+}
