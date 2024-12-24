@@ -19,7 +19,7 @@ interface Specification {
 
 export interface CardsProps {
     id: number;
-    type: 'electro' | 'camera'| 'videoreg' | 'accessories';
+    type: 'RN-65HD-i5-256G8' | 'RN-65HD-i7-512G16'| 'RN-75HD-i5-256G' | 'RN-75HD-i7-512G' | 'RN-86HD-i5-256G' | 'RN-86HD-i7-512G';
     typeDevice: string;
     imgUrl: StaticImageData;
     title: string;

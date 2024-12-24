@@ -18,7 +18,7 @@ export default function DeviceLayout({
   const device = devices.find((item) => item.id === +params.id);
 
   const breadcrumbsTitles = ["Главная", "Каталог", `${device?.title}`];
-  const breadcrumbsHref = ["/", "/catalog/electro", `/device/${device?.id}`];
+  const breadcrumbsHref = ["/", "/catalog/RN-65HD-i5-256G8", `/device/${device?.id}`];
 
   return (
     <div className={styles.main}>

@@ -6,8 +6,8 @@ import ServicesItem from "./ServicesItem/ServicesItem";
 
 const ServicesList = () => {
   const servicesListItem = [
-    {id: "1", iconsPathName: ServicesIcon1, body: "Установка электронного замка на входную дверь"}, 
-    {id: "2", iconsPathName: ServicesIcon2, body: "Установка камер видеонаблюдения"}, 
+    {id: "1", iconsPathName: ServicesIcon1, body: "Установка и настройка монитора"}, 
+    {id: "2", iconsPathName: ServicesIcon2, body: "Доставка в любую точку города"}, 
     {id: "3", iconsPathName: ServicesIcon3, body: "Установка дополнительных аксессуаров"}, 
   ]
   return (

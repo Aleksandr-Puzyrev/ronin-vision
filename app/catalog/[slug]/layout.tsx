@@ -9,7 +9,7 @@ export default function СatalogLayout({
   children: React.ReactNode;
 }) {
   const breadcrumbsTitles = ["Главная", "Каталог"];
-  const breadcrumbsHref = ["/", "/catalog/electro"];
+  const breadcrumbsHref = ["/", "/catalog/RN-65HD-i5-256G8"];
 
   return (
     <div className={styles.main}>

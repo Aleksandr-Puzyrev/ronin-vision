@@ -10,7 +10,7 @@ export const siteConfig = {
     },
     {
       label: "Каталог",
-      href: "/catalog/electro",
+      href: "/catalog/RN-65HD-i5-256G8",
     },
     {
       label: "Услуги",
@@ -24,24 +24,32 @@ export const siteConfig = {
   navFooterProductsItems: [
     {
       label: "Каталог товаров",
-      href: "/catalog/electro",
+      href: "/catalog/RN-65HD-i5-256G8",
     },
     {
-      label: "Электронные замки для входных дверей",
-      href: "/catalog/electro",
+      label: "RN-65HD-i5-256G8",
+      href: "/catalog/RN-65HD-i5-256G8",
     },
     {
-      label: "Камеры видеонаблюдения",
-      href: "/catalog/camera",
+      label: "RN-65HD-i7-512G16",
+      href: "/catalog/RN-65HD-i7-512G16",
     },
     {
-      label: "Видеорегистраторы",
-      href: "/catalog/videoreg",
+      label: "RN-75HD-i5-256G",
+      href: "/catalog/RN-75HD-i5-256G",
     },
     {
-      label: "Аксессуары",
-      href: "/catalog/accessories",
-    }
+      label: "RN-75HD-i7-512G",
+      href: "/catalog/RN-75HD-i7-512G",
+    },
+    {
+      label: "RN-86HD-i5-256G",
+      href: "/catalog/RN-86HD-i5-256G",
+    },
+    {
+      label: "RN-86HD-i7-512G",
+      href: "/catalog/RN-86HD-i7-512G",
+    },
   ],
   navFooterMenuItems: [
     {
