@@ -42,20 +42,20 @@ function Device(device: CardsProps) {
     //   content: <div className={styles.videoContainerText}><div className={styles.videoNotText}>К сожалению на данный момент нет видеообзора по этому товару</div></div>,
     //   // content: <div className={styles.videoContainer}><video width="100%" controls src="/video/5321056414901211687.mp4"/></div>,
     // },
-    {
-      id: 3,
-      label: "Материалы для скачивания",
-      content: (
-        <a
-          href={device.passportUrl}
-          download={device.passportUrl?.slice(10)}
-          className={styles.url}
-        >
-          <Image src={DownloadIcon} alt="" className={styles.downloadIcon} />
-          <div className={styles.downloadText}>Паспорт продукта</div>
-        </a>
-      ),
-    },
+    // {
+    //   id: 3,
+    //   label: "Материалы для скачивания",
+    //   content: (
+    //     <a
+    //       href={device.passportUrl}
+    //       download={device.passportUrl?.slice(10)}
+    //       className={styles.url}
+    //     >
+    //       <Image src={DownloadIcon} alt="" className={styles.downloadIcon} />
+    //       <div className={styles.downloadText}>Паспорт продукта</div>
+    //     </a>
+    //   ),
+    // },
   ];
 
   return (
