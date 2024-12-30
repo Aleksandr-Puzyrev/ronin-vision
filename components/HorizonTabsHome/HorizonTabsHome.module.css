@@ -1,6 +1,6 @@
 .container {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 250px auto;
 }
 
 .container * {
@@ -26,7 +26,7 @@
 
 .linkContainer {
   white-space: normal !important;
-  max-width: 270px;
+  max-width: 180px;
 
 }
 
@@ -36,6 +36,7 @@
 
 .nav[data-selected="true"] .linkCatalog {
   display: flex !important;
+  width: 100%;
 }
 
 .nav[data-selected="true"] .title {
@@ -43,5 +44,25 @@
   font-size: 18px;
   line-height: 133%;
   color: #ff0800;
+}
+
+.gridContainer {
+  gap: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.gridContainerItemTitle, .gridContainerItemDescription {
+  padding: 10px;
+  border-bottom: 1px solid rgb(192, 191, 191);
+}
+
+.gridContainerItemTitle {
+  font-weight: 700;
+}
+
+.gridContainerItemDescription {
+  font-weight: 400;
 
 }

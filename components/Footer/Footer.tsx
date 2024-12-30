@@ -21,7 +21,7 @@ const Footer: FC = (): JSX.Element => {
             <Link
               key={item.label}
               href={item.href}
-              className={index !== 0 ? styles.productsItem : ""}
+              className={styles.productsItem}
             >
               {item.label}
             </Link>

@@ -6,7 +6,7 @@ import Image, { StaticImageData } from 'next/image';
 import { useRouter } from 'next/navigation';
 import { Button } from '@nextui-org/button';
 
-interface SpecificationsItemsTypes {
+export interface SpecificationsItemsTypes {
     label: string;
     value: string;
 }
@@ -23,7 +23,7 @@ export interface CardsProps {
     typeDevice: string;
     imgUrl: StaticImageData;
     title: string;
-    info: string;
+    info: string | React.ReactNode;
     description: string[];
     price: number;
     permission?: number;

@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './DescriptionHome.module.css';
 import Image from "next/image";
-import MainPageImg from "../../public/MainPageImg.png";
+import MainPageImg from "../../public/MainPageImg.jpg";
 import MainPageMobileImg from "../../public/MainPageMobileImg.png";
 import LogoSVG from "../../public/LogoSVG.svg";
 import ButtonLink from '../ButtonLink/ButtonLink';
@@ -9,7 +9,7 @@ import ButtonLink from '../ButtonLink/ButtonLink';
 const DescriptionHome = () => {
     return (
         <div className={styles.sectionItem}>
-        <Image src={MainPageMobileImg} alt="" className={styles.imageMobile}/>
+        <Image src={MainPageImg} alt="" className={styles.imageMobile}/>
         <div className={styles.sectionItemH1}>
           <div className={styles.h1}>
             <Image src={LogoSVG} alt="" className={styles.imageLogoSVG} />
@@ -17,12 +17,11 @@ const DescriptionHome = () => {
           </div>
           <div className={styles.descriptionH1}>
             Компания Ronin - современная организация с многолетним опытом
-            работы в сфере безопасности: охрана зданий, помещений, квартир и
-            домов.
+            работы с интерактивными досками и мониторами.
           </div>
           <ButtonLink href="/about">Подробнее</ButtonLink>
         </div>
-        <Image src={MainPageImg} alt="" className={styles.image} />
+        <Image src={MainPageImg} alt="" className={styles.image} style={{borderBottomLeftRadius: "80%"}}/>
       </div>
     );
 };

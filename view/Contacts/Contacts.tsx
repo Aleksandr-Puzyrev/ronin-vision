@@ -11,7 +11,7 @@ const Contacts = () => {
                     <Image src={DropDownMiniIcon} alt='' width={35} height={9}/>
                     <div className={styles.contactsTitle}>Телефон:</div>
                 </div>
-                <div className={styles.contactsDescription}>+7 (919) 975-70-04 (отдел продаж)</div>
+                <div className={styles.contactsDescription}>+7 (927) 840-33-31 (отдел продаж)</div>
             </div>
             <div className={styles.contactsItem}>
                 <div className={styles.imgAndTitleContainer}>
@@ -25,7 +25,7 @@ const Contacts = () => {
                     <Image src={DropDownMiniIcon} alt='' width={35} height={9}/>
                     <div className={styles.contactsTitle}>Адрес:</div>
                 </div>
-                <div className={styles.contactsDescription}>143405, Россия, Московская область, г. Красногорск, бульвар Строителей, дом 4, корпус 1, офис 43 (станция метро Мякинино).</div>
+                <div className={styles.contactsDescription}>428034, Россия, Чувашская Республика, г.Чебоксары, Московский пр., 29.</div>
             </div>
             <div className={styles.contactsItem}>
                 <div className={styles.imgAndTitleContainer}>

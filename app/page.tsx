@@ -20,7 +20,7 @@ export default function Home() {
     <section>
       <DescriptionHome />
 
-      <OffersContainer title="Каталог">
+      <OffersContainer title="Модели">
         <div className={styles.catalogsDesktop}>
           <HorizonTabsHome catalogs={catalogs} />
         </div>
@@ -29,7 +29,7 @@ export default function Home() {
             {catalogs.map((item) => (
               <AccordionItem key={item.id} aria-label="Accordion 1" title={item.label} className={styles.accordionlink} >
                 <div className={styles.linkCatalog}>
-                  <CatalogHomeItem catalogTab={item.tabLink} description={item.description} />
+                  <CatalogHomeItem catalogTab={item.tabLink} description={item.description} specifications={item.specifications}/>
                 </div>
               </AccordionItem>
             ))}
@@ -41,14 +41,6 @@ export default function Home() {
         <ServicesList />
       </OffersContainer>
 
-      {/* {cardsObj ? <><OffersContainer title="Новинки">
-        <div className={styles.cardContainer}>
-          {cardsObj.map((item) => (<Card key={item.id} {...item} {...{pathForNewCards: '/catalog/'}}/>))}
-        </div>
-      </OffersContainer>
-      <div className={styles.catalogButton}>
-        <ButtonLink href="/catalog/electro">Перейти в каталог</ButtonLink>
-      </div></> : <></>} */}
     </section>
   );
 }

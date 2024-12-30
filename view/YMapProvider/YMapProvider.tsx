@@ -10,13 +10,13 @@ export default function YMapProvider() {
       <YMaps query={{ apikey: process.env.NEXT_PUBLIC_YMAP_APIKEY }}>
         <Map
           defaultState={{
-            center: [55.814462,37.385412],
+            center: [56.143678,47.209621],
             zoom: 16
           }}
           width="85%"
           height="408px"
         >
-          <Placemark defaultGeometry={[55.814462,37.385412]} />
+          <Placemark defaultGeometry={[56.143678,47.209621]} />
         </Map>
       </YMaps>
     </div>

@@ -13,7 +13,7 @@
 }
 
 .linkButton {
-  padding: 13px 69px !important;
+  padding: 8px 25px !important;
   background-color: #485858 !important;
   border-radius: 2px !important;
   font-weight: 700 !important;
@@ -21,6 +21,18 @@
   color: #fff !important;
 }
 
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.gridContainerItemTitle {
+  font-weight: 700;
+}
+
+.gridContainerItemDescription {
+  font-weight: 400;
+}
 
 @media (max-width: 641px) {
   .linkButton {

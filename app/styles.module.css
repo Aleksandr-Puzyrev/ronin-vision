@@ -79,6 +79,11 @@
     width: 94vw;
   }
 }
+@media (max-width: 1300px) {
+  .main {
+    width: 100%;
+  }
+}
 
 @media (max-width: 1250px) {
   .cardContainer {
