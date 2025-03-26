@@ -25,8 +25,8 @@ function Device(device: CardsProps) {
           <div className={styles.specificationTitle} style={{ fontWeight: 700 }}>
             {specification.title}
           </div>
-          {specification.items.map((item) => (
-            <div key={item.label} className={styles.specificationLabekAndValueCont}>
+          {specification.items.map((item, index) => (
+            <div key={item.label} className={styles.specificationLabekAndValueCont} style={{backgroundColor: index%2 !== 0 ? "rgb(241, 241, 241)" : ""}}>
               <div className={styles.specificationLabel}>{item.label}</div>
               <div className={styles.specificationValueCont}>
                 <div className={styles.specificationValue}>{item.value}</div>
@@ -70,6 +70,10 @@ function Device(device: CardsProps) {
             <hr />
           </div>
           {/* <ButtonLink href="https://t.me/shopronin_bot" target_bl='_blank'>Перейти в Telegram-бот</ButtonLink> */}
+          <div className={styles.priceContainer}>
+            <div className={styles.priceLabel}>Цена:</div>
+            <div className={styles.price}>{device.price} рублей</div>
+          </div>
           <ButtonLink href={"tel:" + siteConfig.telephone}>
             <div>{siteConfig.telephone}</div>
           </ButtonLink>

@@ -14,6 +14,7 @@ export interface HorizonTabsHomeProps {
   content: StaticImageData;
   tabLink: string;
   specifications: SpecificationsItemsTypes[];
+  price?: number;
 }
 
 interface HorizonTabsHomeArrayProps {
@@ -30,6 +31,7 @@ const HorizonTabsHome = ({ catalogs }: HorizonTabsHomeArrayProps) => {
             title={
               <div className={styles.linkContainer}>
                 <div className={styles.title}>{item.label}</div>
+                <div>{item.price} рублей</div>
                 <div className={styles.linkCatalog}>
                   <CatalogHomeItem catalogTab={item.tabLink} description={item.description}/>
                 </div>

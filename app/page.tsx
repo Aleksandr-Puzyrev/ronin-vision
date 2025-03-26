@@ -19,7 +19,6 @@ export default function Home() {
   return (
     <section>
       <DescriptionHome />
-
       <OffersContainer title="Модели">
         <div className={styles.catalogsDesktop}>
           <HorizonTabsHome catalogs={catalogs} />
@@ -36,11 +35,9 @@ export default function Home() {
           </Accordion>
         </div>
       </OffersContainer>
-
       <OffersContainer title="Услуги">
         <ServicesList />
       </OffersContainer>
-
     </section>
   );
 }

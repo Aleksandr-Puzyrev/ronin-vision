@@ -54,5 +54,5 @@ export const siteConfig = {
     },
   ],
   email: "info@ronin.com.ru",
-  telephone: "+7 (927) 840-33-31",
+  telephone: "+7 (909) 305-09-23",
 };

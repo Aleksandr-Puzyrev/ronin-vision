@@ -10,6 +10,7 @@ const data: HorizonTabsHomeProps[] = [
   {
     id: 1,
     label: `RN-65HD-i5-256G8`,
+    price: 250000,
     description: "Основные характеристики модели RN-65HD-i5-256G8",
     content: DS4,
     tabLink: "/RN-65HD-i5-256G8",
@@ -30,6 +31,7 @@ const data: HorizonTabsHomeProps[] = [
   {
     id: 2,
     label: "RN-65HD-i7-512G16",
+    price: 250000,
     description: "Основные характеристики модели RN-65HD-i7-512G16",
     content: DS17,
     tabLink: "/RN-65HD-i7-512G16",
@@ -50,6 +52,7 @@ const data: HorizonTabsHomeProps[] = [
   {
     id: 3,
     label: "RN-75HD-i5-256G",
+    price: 300000,
     description: "Основные характеристики модели RN-75HD-i5-256G",
     content: DS18,
     tabLink: "/RN-75HD-i5-256G",
@@ -70,6 +73,7 @@ const data: HorizonTabsHomeProps[] = [
   {
     id: 4,
     label: "RN-75HD-i7-512G",
+    price: 300000,
     description: "Основные характеристики модели RN-75HD-i7-512G",
     content: DS32,
     tabLink: "/RN-75HD-i7-512G",
@@ -90,9 +94,10 @@ const data: HorizonTabsHomeProps[] = [
   {
     id: 5,
     label: "RN-86HD-i5-256G",
+    price: 350000,
     description: "Основные характеристики модели RN-86HD-i5-256G",
     content: DS36,
-    tabLink: "/RN-75HD-i7-512G",
+    tabLink: "RN-86HD-i5-256G",
     specifications: [
       { label: "Диагональ", value: "86 дюймов" },
       { label: "Тип подсветки", value: "D-LED" },
@@ -110,6 +115,7 @@ const data: HorizonTabsHomeProps[] = [
   {
     id: 6,
     label: "RN-86HD-i7-512G",
+    price: 350000,
     description: "Основные характеристики модели RN-86HD-i7-512G",
     content: DS37,
     tabLink: "/RN-86HD-i7-512G",
