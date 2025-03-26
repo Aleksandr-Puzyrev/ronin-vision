@@ -42,10 +42,10 @@ const HorizonTabsHome = ({ catalogs }: HorizonTabsHomeArrayProps) => {
             {/* <Image priority={true} src={item.content} alt=""/> */}
             <span>{item.description}</span> 
             <div className={styles.gridContainer}>
-              {item.specifications.map((specification) => (
+              {item.specifications.map((specification, index) => (
                 <>
-                  <div className={styles.gridContainerItemTitle}>{specification.label}</div>
-                  <div className={styles.gridContainerItemDescription}>{specification.value}</div>
+                  <div className={styles.gridContainerItemTitle} style={{backgroundColor: index%2 !== 0 ? "rgb(241, 241, 241)" : ""}}>{specification.label}</div>
+                  <div className={styles.gridContainerItemDescription} style={{backgroundColor: index%2 !== 0 ? "rgb(241, 241, 241)" : ""}}>{specification.value}</div>
                 </>
               ))}
             </div>
