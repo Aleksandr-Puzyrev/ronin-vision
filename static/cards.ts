@@ -146,7 +146,7 @@ const data: CardsProps[] = [
     description: [
       "Новая интерактивная доска",
     ],
-    price: 250000,
+    price: 300000,
     newCard: false,
     specifications: [
       {
@@ -392,7 +392,7 @@ const data: CardsProps[] = [
     description: [
       "Новая интерактивная доска",
     ],
-    price: 300000,
+    price: 350000,
     newCard: true,
     specifications: [
       {
@@ -636,7 +636,7 @@ const data: CardsProps[] = [
     description: [
       "Новая интерактивная доска",
     ],
-    price: 350000,
+    price: 400000,
     permission: 3,
     microphone: true,
     poe: true,

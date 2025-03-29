@@ -31,7 +31,7 @@ const data: HorizonTabsHomeProps[] = [
   {
     id: 2,
     label: "RN-65HD-i7-512G16",
-    price: 250000,
+    price: 300000,
     description: "Основные характеристики модели RN-65HD-i7-512G16",
     content: DS17,
     tabLink: "/RN-65HD-i7-512G16",
@@ -73,7 +73,7 @@ const data: HorizonTabsHomeProps[] = [
   {
     id: 4,
     label: "RN-75HD-i7-512G",
-    price: 300000,
+    price: 350000,
     description: "Основные характеристики модели RN-75HD-i7-512G",
     content: DS32,
     tabLink: "/RN-75HD-i7-512G",
@@ -115,7 +115,7 @@ const data: HorizonTabsHomeProps[] = [
   {
     id: 6,
     label: "RN-86HD-i7-512G",
-    price: 350000,
+    price: 400000,
     description: "Основные характеристики модели RN-86HD-i7-512G",
     content: DS37,
     tabLink: "/RN-86HD-i7-512G",
